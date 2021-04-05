@@ -75,13 +75,13 @@ h1 {
   font-weight: 700;
   font-size: 36px;
   color: var(--neu-gray);
-  margin-bottom: 36px;
+  margin-bottom: 1.5rem;
 }
 
 article p {
   color: var(--neu-white);
-  font-size: 0.77rem;
-  line-height: 24px;
+  font-size: 13.8px;
+  line-height: 1.5rem;
 }
 
 button {
@@ -160,14 +160,17 @@ button:active {
     flex-direction: column;
   }
 
-  article:nth-child(1) {
+  article.sedan {
     border-radius: 7px 7px 0 0;
   }
 
-  article:nth-child(3) {
+  article.luxury {
     border-radius: 0 0 7px 7px;
   }
 
+  article p {
+    font-size: 0.77rem;
+  }
   .attribution {
     position: relative;
     width: auto;
